@@ -31,7 +31,7 @@ public class WebitScript extends AbstractEngine {
     protected void initConfig(Map<String, Object> parameters, Properties properties) {
 
         parameters.put(CFG.OUT_ENCODING, properties.getProperty("outputEncoding", "UTF-8"));
-        parameters.put(CFG.CLASSPATH_LOADER_ENCODING, properties.getProperty("inputEncoding", "UTF-8"));
+        parameters.put(CFG.LOADER_ENCODING, properties.getProperty("inputEncoding", "UTF-8"));
 
         String outMode = properties.getProperty("outs", "0");
         if (outMode.equals("0")) {
