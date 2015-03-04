@@ -21,6 +21,9 @@ Engine Benchmark
 
 测试结果：
 ==============
+
+> 这个测试于 2013年12月22日，其中的测试结果已经有所发展或是发生改变，请注意时效性。
+
 ~~~~~
 JVM     : Windows Oracle JDK7u45(32位)
 JVM参数 : -server -Xms128m -XX:PermSize=32m
